@@ -1,0 +1,88 @@
+name: EquestriCraftPlugin
+main: io.github.davidg95.equestricraftplugin.EquestriCraftPlugin
+version: 1.0
+commands:
+    createhorse:
+        description: Creates a new horse.
+        usage: /createhorse <stallion|mare|gelding>
+    geldingtool:
+        description: Place a gelding tool in your hand.
+        usage: /geldingtool
+    horsemedicine:
+        description: Place healing medicine in your hand.
+        usage: /horsemedicine
+    horsewand:
+        description: Place checking wand in your hand.
+        usage: /horsecheck
+    vaccination:
+        description: Spawns the vaccination tool.
+        usage: /vaccination
+    doctortool:
+        description: Spawn the tool to check a horses health.
+        usage: /doctortool
+    changegender:
+        description: Change the gender of a horse.
+        usage: /changegender <stallion|mare|gelding>
+    savehorses:
+        description: Saves the horses to file.
+        usage: /savehorses
+    setbreed:
+        description: Set the breed of a horse.
+        usage: /setbreed <breed1> <breed2>
+    setpersonality:
+        description: Set the personality of a horse.
+        usage: /setpersonality <personality>
+    showbreeds:
+        description: Show a list of the breeds.
+        usage: /showbreeds
+    showtraits:
+        description: Show a list of the traits/personalities.
+        usage: /showtraits
+    eqhelp:
+        decription: Show a list of help commands.
+        usage: /eqhelp
+    setage:
+        description: Set the age of the horse.
+        usage: /setage <age>
+    race:
+        description: Race commands.
+        usage: /race [open [laps] <[p1] [p2] [p3]> | join <ign> | end | spectate | start | countdown | withdraw | list | clearall]
+    eqh:
+        decription: admin command.
+        usage: /eqh
+    farrier:
+        description: farrier commands.
+        usage: /farrier <tool|show-online|broadcast [message]>.
+    disciplines:
+        description: disciplines commands.
+        usage: /disciplines
+    setlevel:
+        description: sets a horses training level.
+        udage: /setlevel <1-10>
+    navigator:
+        description: Spawns the navigator.
+        udage: /navigator
+    auction:
+        description: Auction commands.
+        usage: /auction [open|bid|sell|end]
+    breeding:
+        description: breeding commands.
+        usage: /breeding [gapple|check]
+    food:
+        description: food commands.
+        usage: /food [buy-seeds|buy-wheat|buy-water]
+    dentist:
+        description: dentist commands.
+        usage: /dentist <tool|show-online|broadcast [message]>
+    vet:
+        description: show online vets.
+        usage: /vet <show-online|broadcast [message]>
+    color:
+        description: Show color codes.
+        usage: /color
+    pwarp:
+        description: Private warps commands.
+        usage: /pwarp <set [name] | remove [name] | go [name] | show-all>
+    buildpay:
+        descrption: BuildPay logs commands.
+        usage: /buildpay <amount> <reason>
