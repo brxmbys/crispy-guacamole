@@ -1,5 +1,5 @@
-name: EquestriCraftPlugin
-main: io.github.davidg95.equestricraftplugin.EquestriCraftPlugin
+name: Foxtrottersplugin
+main: io.github.brxmbys.foxtrottersplugin.foxtrottersplugin
 version: 1.0
 commands:
     createhorse:
@@ -44,9 +44,6 @@ commands:
     setage:
         description: Set the age of the horse.
         usage: /setage <age>
-    race:
-        description: Race commands.
-        usage: /race [open [laps] <[p1] [p2] [p3]> | join <ign> | end | spectate | start | countdown | withdraw | list | clearall]
     eqh:
         decription: admin command.
         usage: /eqh
@@ -80,9 +77,6 @@ commands:
     color:
         description: Show color codes.
         usage: /color
-    pwarp:
-        description: Private warps commands.
-        usage: /pwarp <set [name] | remove [name] | go [name] | show-all>
     buildpay:
         descrption: BuildPay logs commands.
         usage: /buildpay <amount> <reason>
