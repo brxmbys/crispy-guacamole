@@ -1,7 +1,7 @@
 <#if licenseFirst??>
 ${licenseFirst}
 </#if>
-${licensePrefix}EquestriCraftPlugin for equestricraft.serv.nu.
+${licensePrefix}FoxTrotterPlugin for foxtrotter.my-serv.com.
 <#if licenseLast??>
 ${licenseLast}
 </#if>
